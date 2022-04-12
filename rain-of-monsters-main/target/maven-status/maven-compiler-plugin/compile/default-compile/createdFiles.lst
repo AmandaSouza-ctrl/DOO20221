@@ -1,0 +1,9 @@
+game\fabrica\FabricaDeObjetosDoJogo.class
+game\observer\ControleColisao.class
+game\observer\Observador.class
+game\Heroi.class
+game\observer\Observavel.class
+game\InimigoEsperto.class
+SimpleSlickGame.class
+game\PersonagemPadrao.class
+game\Inimigo.class
