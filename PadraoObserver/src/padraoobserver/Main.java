@@ -17,8 +17,22 @@ public class Main {
     public static void main(String[] args) {
         
         MembroEmail me = new MembroEmail();
+        MembroWhatsapp mw = new MembroWhatsapp();
         
+        me.email = "amanda@ifes.com";
+        mw.numero = 9999999;
         
+        CaixaEntradaGrupo ceg = new CaixaEntradaGrupo();
+        CaixaEntradaGrupo ceg2 = new CaixaEntradaGrupo();
+
+        ceg.addObservardor(me);
+        ceg2.addObservardor(mw); 
+        
+        ceg.setNovaMensagem("segue anexo");
+
+        ceg2.setNovaMensagem("oi");
+        ceg2.setNovaMensagem("td bem?");
+
                 
     }
     
